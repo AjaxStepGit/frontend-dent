@@ -1,6 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+html, body, :root {
+  height: 100vh;
+}
  
 @layer base {
   :root {
@@ -13,7 +18,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
  
-    --primary: 222.2 47.4% 11.2%;
+    --primary: 228.75 60.71% 15.1%;
     --primary-foreground: 210 40% 98%;
  
     --secondary: 210 40% 96.1%;
